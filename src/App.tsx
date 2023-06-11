@@ -9,7 +9,7 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <Router basename={import.meta.env.Dev ? '/' : '/CNU_Blog/'}>
+    <Router basename={import.meta.env.DEV ? '/' : '/CNU_Blog/'}>
       <Routes>
         <Route element={<Header />}>
           <Route element={<Layout />}>

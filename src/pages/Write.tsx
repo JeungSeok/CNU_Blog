@@ -88,7 +88,6 @@ const Write = () => {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
   const [tag, setTag] = useState<TAG>(TAG.REACT);
-  const [tagList] = Object.keys(TAG);
   const handleChangeTitle = (event: ChangeEvent<HTMLInputElement>) => {
     setTitle(event.target.value);
   };

@@ -2,9 +2,8 @@ import { useEffect, useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import styled from '@emotion/styled';
 import { deletePostById, getPostById } from '../api';
-import { IAdvertisement, IPost } from '../api/types';
+import { IPost } from '../api/types';
 import NotFound from '../components/NotFound';
-import Tag from '../components/Tag';
 
 const Title = styled.h1`
   font-size: 3rem;
@@ -31,12 +30,6 @@ const TextButton = styled.button`
   font-size: inherit;
   cursor: pointer;
   color: #868e96;
-`;
-
-const TagWrapper = styled.div`
-  margin-top: 1.5rem;
-  margin-bottom: -0.875rem;
-  min-height: 0.875rem;
 `;
 
 const Info = styled.div`
