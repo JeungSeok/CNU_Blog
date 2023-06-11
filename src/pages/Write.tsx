@@ -91,11 +91,11 @@ const Write = () => {
   const handleChangeTitle = (event: ChangeEvent<HTMLInputElement>) => {
     setTitle(event.target.value);
   };
-  const handleChangeContent = (event: ChangeEvent<HTMLInputElement>) => {
+  const handleChangeContent = (event: ChangeEvent<HTMLTextAreaElement>) => {
     setContent(event.target.value);
   };
 
-  const handleChangeTag = (event: ChangeEvent<HTMLInputElement>) => {
+  const handleChangeTag = (event: ChangeEvent<HTMLSelectElement>) => {
     setTag(event.target.value as TAG);
   };
   // todo (5) 게시글 작성 페이지 만들기
