@@ -23,10 +23,9 @@ const Resume = () => {
       <Title>2023 SQLD 자격증 획득</Title>
       <Text> 2023.06 </Text>
       <Text> Sql 개발자 학습 및 자격증 획득 </Text>
-      <Title> 배포 문제에 당착</Title>
-      <Text> 과제중 </Text>
-      <Text> 배포 과정에서 문제가 발생해서 배포하지 못하는 중 </Text>
-      <Text> 강사님께, 최선을 다한 점 고려하여 자비를 바람 </Text>
+      <Title> 렌터카 윕 프로젝트</Title>
+      <Text> 2023.05 ~ </Text>
+      <Text> 개인 프로젝트로 진행중 </Text>
     </div>
   );
 };
